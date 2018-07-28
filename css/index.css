@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+
+:root {
+    font-family: 'Maitree';
+}
+
+body {
+    max-width: 1920px;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li:hover {
+    background-color: #636363;
+    color: black;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav {
+    background-color: #1e1e1e;
+    overflow: hidden;
+}
+
+.parallax {
+    display: block;
+    background-image: url("stmth.jpg");
+    height: 800px;
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
