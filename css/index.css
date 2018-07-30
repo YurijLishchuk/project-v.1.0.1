@@ -37,7 +37,11 @@ nav {
 }
 
 header {
-    padding-top: 75px;
+    background-image: url("../img/stmth.jpg");
+    height: 900px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header, article, footer {
