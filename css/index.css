@@ -38,7 +38,7 @@ nav {
 
 header {
     background-image: url("../img/stmth.jpg");
-    height: 900px;
+    height: 800px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,4 +51,10 @@ header, article, footer {
 img {
     max-width: 100%;
     height: auto;
+}
+
+#form label {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
 }
