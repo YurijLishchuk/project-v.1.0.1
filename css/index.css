@@ -38,8 +38,9 @@ nav {
 
 header {
     background-image: url("../img/stmth.jpg");
-    height: 800px;
+    min-height: 800px;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -57,4 +58,13 @@ img {
     display: inline-block;
     width: 80px;
     text-align: left;
+}
+
+@media only screen and (max-device-width: 1920px) {
+    header {
+        background-attachment: scroll;
+    }
+    nav {
+        position: relative;
+    }
 }
